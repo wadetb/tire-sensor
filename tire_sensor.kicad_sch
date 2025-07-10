@@ -792,282 +792,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FA-128_32.0000MF20X-K3:FA-128_32.0000MF20X-K3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at -5.0878 6.3559 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "FA-128_32.0000MF20X-K3"
-				(at -5.0944 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "FA-128_32.0000MF20X-K3:XTAL_FA-128_32.0000MF20X-K3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "N/A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.5 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "EPSON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "FA-128_32.0000MF20X-K3_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.3368 2.54) (xy -2.3368 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.54) (xy -1.397 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.54) (xy 1.397 2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 2.54) (xy 1.397 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -2.54) (xy -1.397 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.3368 2.54) (xy 2.3368 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "GND__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0)
@@ -4227,6 +3951,279 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Extended:Crystal, 40MHz, 15pF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "40MHz, 15pF"
+				(at -0.254 6.35 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322540MPB4SI_C9010.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "40MHz Surface Mount Crystal 15pF ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C9010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartID" "X322540MPB4SI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C9010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal, 40MHz, 15pF_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.016) (xy -1.27 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.778) (xy -0.762 1.778) (xy 0.762 1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 0.762 -1.778) (xy -0.762 -1.778) (xy -0.762 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy -0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.016) (xy 1.27 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Crystal, 40MHz, 15pF_1_1"
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "OSC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OSC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Extended:RF, Connector, U.FL"
 			(pin_names
 				(offset 1.016)
@@ -6181,28 +6178,28 @@
 		(uuid "1d3df0e1-646e-48bf-bb65-e240e2cb86ee")
 	)
 	(junction
-		(at 213.36 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24ab1d45-395c-4e2c-8293-3d67c7d1861a")
-	)
-	(junction
 		(at 222.25 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "267af4c5-0482-4162-b5e1-ed7c65b80867")
 	)
 	(junction
-		(at 213.36 99.06)
+		(at 205.74 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ef43359-8997-41ee-a64e-f982aa6da6cc")
+		(uuid "32b56ea6-87bb-4978-a5e1-0f04393a33ed")
 	)
 	(junction
 		(at 234.95 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47bbc7b8-f383-4a5a-9c31-3b1739459500")
+	)
+	(junction
+		(at 220.98 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "561fcbb4-dfc4-4d5c-b888-e1fed6893d7b")
 	)
 	(junction
 		(at 147.32 66.04)
@@ -6289,10 +6286,6 @@
 	(no_connect
 		(at 115.57 116.84)
 		(uuid "172dd554-cff6-4c1f-869b-05c8206c6a61")
-	)
-	(no_connect
-		(at 231.14 124.46)
-		(uuid "17608038-3e88-49e9-8cf5-58e2586c0e2f")
 	)
 	(no_connect
 		(at 140.97 157.48)
@@ -6414,13 +6407,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 96.52) (xy 213.36 99.06)
+			(xy 237.49 118.11) (xy 237.49 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06634fd5-6e90-4ef0-a089-9b042f5b7441")
+		(uuid "03d928fe-3452-45b0-a5b0-bfefc9182e30")
 	)
 	(wire
 		(pts
@@ -6502,6 +6495,26 @@
 			(type default)
 		)
 		(uuid "13ef8a39-af42-4f4e-bcac-f5d16ce384d2")
+	)
+	(wire
+		(pts
+			(xy 220.98 82.55) (xy 220.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188e4c1d-f46a-4476-a4e6-8f3e0ef987eb")
+	)
+	(wire
+		(pts
+			(xy 229.87 135.89) (xy 229.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c418bbc-d60e-4756-a9e9-ce4a4c43cba8")
 	)
 	(wire
 		(pts
@@ -6675,7 +6688,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 99.06) (xy 223.52 99.06)
+			(xy 205.74 99.06) (xy 223.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6846,6 +6859,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 82.55) (xy 220.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da6c36f-5326-4024-9f71-58817a797ee0")
+	)
+	(wire
+		(pts
 			(xy 73.66 34.29) (xy 71.12 34.29)
 		)
 		(stroke
@@ -6933,16 +6956,6 @@
 			(type default)
 		)
 		(uuid "888ca184-c47b-4bb0-a7c3-4ea791515efa")
-	)
-	(wire
-		(pts
-			(xy 199.39 82.55) (xy 213.36 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b924ee5-86a6-45cd-bd34-98a2bad3ac33")
 	)
 	(wire
 		(pts
@@ -7106,16 +7119,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 82.55) (xy 223.52 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d472ef-5ffb-4baf-b925-43e476573bdd")
-	)
-	(wire
-		(pts
 			(xy 66.04 100.33) (xy 66.04 104.14)
 		)
 		(stroke
@@ -7133,6 +7136,16 @@
 			(type default)
 		)
 		(uuid "ab155cf2-d212-4e9c-bde2-a02c78748444")
+	)
+	(wire
+		(pts
+			(xy 234.95 130.81) (xy 234.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abebca68-1294-4ce8-8e1f-42ee7c8c3378")
 	)
 	(wire
 		(pts
@@ -7183,6 +7196,16 @@
 			(type default)
 		)
 		(uuid "bb361414-f5bf-4796-a5db-80b0425e3444")
+	)
+	(wire
+		(pts
+			(xy 220.98 82.55) (xy 223.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1742ab-8dee-40a1-ac46-d890fd5f9a27")
 	)
 	(wire
 		(pts
@@ -7257,6 +7280,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 118.11) (xy 234.95 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a451f1-fd84-4f2f-ad49-b090c8d2f9d7")
+	)
+	(wire
+		(pts
+			(xy 205.74 91.44) (xy 205.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47d185c-72a7-4ea5-b361-cd17a87177c0")
+	)
+	(wire
+		(pts
 			(xy 74.93 34.29) (xy 73.66 34.29)
 		)
 		(stroke
@@ -7274,16 +7317,6 @@
 			(type default)
 		)
 		(uuid "e3bef4db-53ac-42b1-aa99-47ff1dcd7d5b")
-	)
-	(wire
-		(pts
-			(xy 213.36 81.28) (xy 213.36 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e555685b-a2b0-4a27-aa7a-28cfcff6be71")
 	)
 	(wire
 		(pts
@@ -7337,7 +7370,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 99.06) (xy 213.36 99.06)
+			(xy 203.2 99.06) (xy 205.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -11081,6 +11114,16 @@
 		)
 		(uuid "4295a409-e567-4db7-8663-911ea98b20fb")
 	)
+	(label "RF"
+		(at 234.95 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48587557-ecbf-4500-9e4f-61dae8099441")
+	)
 	(label "CS_DPS368"
 		(at 153.67 157.48 270)
 		(effects
@@ -11222,7 +11265,7 @@
 		(uuid "7e32053f-4968-42b6-916f-a8d71e8f3e32")
 	)
 	(label "GND"
-		(at 208.28 96.52 0)
+		(at 220.98 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11270,6 +11313,16 @@
 			(justify right bottom)
 		)
 		(uuid "8c5a2443-9f8f-4b62-9134-8bd683587bb5")
+	)
+	(label "GND"
+		(at 205.74 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "915408df-8443-4119-80ca-99581b8ab5ab")
 	)
 	(label "DEC1"
 		(at 102.87 83.82 0)
@@ -11400,6 +11453,16 @@
 			(justify left bottom)
 		)
 		(uuid "f82ddd07-b5d9-499e-b862-9672ef006ab0")
+	)
+	(label "RF"
+		(at 234.95 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f925ce9c-bf9c-4c01-b24a-56cc4900a7bc")
 	)
 	(label "DEC3"
 		(at 184.15 116.84 0)
@@ -12209,7 +12272,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna_Shield")
-		(at 234.95 114.3 0)
+		(at 234.95 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12218,7 +12281,7 @@
 		(fields_autoplaced yes)
 		(uuid "0de7bdf5-1d1d-4946-afb1-cccb634f40b3")
 		(property "Reference" "AE1"
-			(at 238.76 112.3949 0)
+			(at 238.76 111.1249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12227,7 +12290,7 @@
 			)
 		)
 		(property "Value" "Antenna_Shield"
-			(at 238.76 114.9349 0)
+			(at 238.76 113.6649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,7 +12299,7 @@
 			)
 		)
 		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
-			(at 234.95 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12245,7 +12308,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 111.76 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12254,7 +12317,7 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
-			(at 234.95 114.3 0)
+			(at 234.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13558,7 +13621,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Extended:RF, Connector, U.FL")
-		(at 234.95 134.62 270)
+		(at 234.95 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13567,7 +13630,7 @@
 		(fields_autoplaced yes)
 		(uuid "42f36947-086d-4fa7-b108-116f13bbe9eb")
 		(property "Reference" "J2"
-			(at 238.76 133.0324 90)
+			(at 238.76 134.3024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13576,7 +13639,7 @@
 			)
 		)
 		(property "Value" "U.FL"
-			(at 238.76 135.5724 90)
+			(at 238.76 136.8424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13585,7 +13648,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:IPEX-SMD_BWIPX-1-001E"
-			(at 234.95 134.62 0)
+			(at 234.95 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13594,7 +13657,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208151830_BAT-WIRELESS-BWU-FL-IPEX1_C5137195.pdf"
-			(at 234.95 134.62 0)
+			(at 234.95 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13603,7 +13666,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 234.95 134.62 0)
+			(at 234.95 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13612,7 +13675,7 @@
 			)
 		)
 		(property "LCSC" "C5137195"
-			(at 234.95 134.62 0)
+			(at 234.95 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17178,8 +17241,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FA-128_32.0000MF20X-K3:FA-128_32.0000MF20X-K3")
-		(at 213.36 88.9 270)
+		(lib_id "PCM_JLCPCB-Extended:Crystal, 40MHz, 15pF")
+		(at 213.36 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17187,7 +17250,7 @@
 		(dnp no)
 		(uuid "7a09b72b-3cd5-480b-b2d8-921850a4c7fb")
 		(property "Reference" "X1"
-			(at 216.154 91.186 0)
+			(at 215.646 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17196,7 +17259,7 @@
 			)
 		)
 		(property "Value" "32MHz"
-			(at 213.614 91.186 0)
+			(at 215.646 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17204,26 +17267,27 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "footprints:XTAL_FA-128_32.0000MF20X-K3"
-			(at 213.36 88.9 0)
+		(property "Footprint" "PCM_JLCPCB:OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI"
+			(at 213.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "XTAL SMD 2016, 32MHz, Cl=8pF, Total Tol: ±40ppm"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322540MPB4SI_C9010.pdf"
+			(at 211.074 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "40MHz Surface Mount Crystal 15pF ±10ppm ±20ppm SMD3225-4P Crystals ROHS"
 			(at 213.36 88.9 0)
 			(effects
 				(font
@@ -17233,7 +17297,7 @@
 			)
 		)
 		(property "PART NUMBER" "XTAL_SMD2016_32MHz_8pF_General"
-			(at 220.98 88.392 0)
+			(at 212.852 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17253,7 +17317,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "*"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17263,7 +17327,7 @@
 			)
 		)
 		(property "DATASHEET" "*"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17273,7 +17337,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2016-08-19"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17283,7 +17347,7 @@
 			)
 		)
 		(property "PIN COUNT" "4"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17293,7 +17357,7 @@
 			)
 		)
 		(property "PUBLISHER" "Nordic Semiconductor"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17303,7 +17367,7 @@
 			)
 		)
 		(property "PUBLISHED" "2016-08-19"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17313,7 +17377,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "32MHz"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17323,7 +17387,7 @@
 			)
 		)
 		(property "NOTE" "XTAL SMD 32.000MHz"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17333,7 +17397,7 @@
 			)
 		)
 		(property "SUPPLIER" "*"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17343,7 +17407,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER" "*"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17353,7 +17417,7 @@
 			)
 		)
 		(property "2ND SOURCE SUPPLIER" "*"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17363,7 +17427,7 @@
 			)
 		)
 		(property "2ND SOURCE PART NUMBER" "*"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17373,7 +17437,7 @@
 			)
 		)
 		(property "ARTIKKELNR NOCA" "N.A."
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17383,7 +17447,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "XTAL_2016"
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17393,7 +17457,7 @@
 			)
 		)
 		(property "ARTIKKELNR SIMPRO" "N.A."
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17403,7 +17467,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 211.074 91.186 0)
+			(at 215.646 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17412,7 +17476,7 @@
 			)
 		)
 		(property "PART NUMBER IPS" ""
-			(at 223.52 88.392 0)
+			(at 212.852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17448,6 +17512,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9010"
+			(at 213.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartID" "X322540MPB4SI"
+			(at 213.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
