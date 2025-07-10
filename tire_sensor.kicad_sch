@@ -1932,6 +1932,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Capacitors:0402,100pF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.032 1.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100pF"
+				(at 2.032 -0.3782 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:C_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG101J500NT_C1546.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 100pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1546"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "3286274"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0402CG101J500NT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rated" "50V"
+				(at 2.032 -2.0462 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "±5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "100pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "C0G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,100pF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,100pF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Capacitors:0402,10uF"
 			(pin_numbers
 				(hide yes)
@@ -4766,156 +5022,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "temp_sensor_2-altium-import:root_0_CAP_Nordic Passive DB.DbLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor, NP0, ±5%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*CAPC1005X04L*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_CAP_Nordic Passive DB.DbLib_1_0"
-				(polyline
-					(pts
-						(xy 3.302 0) (xy 2.794 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -1.778) (xy 3.302 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0) (xy 4.826 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -1.778) (xy 4.318 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 3.302)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.302)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "temp_sensor_2-altium-import:root_0_nRF52832_QFAA_Nordic Active DB.DbLib"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6750,16 +6856,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 105.41) (xy 210.82 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a93918e-3604-4223-bf83-9e1e77836501")
-	)
-	(wire
-		(pts
 			(xy 259.08 30.48) (xy 274.32 30.48)
 		)
 		(stroke
@@ -7107,6 +7203,16 @@
 			(type default)
 		)
 		(uuid "c2467ca0-0928-4684-9220-551fc8cfe9ed")
+	)
+	(wire
+		(pts
+			(xy 207.01 105.41) (xy 210.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39a633e-d1f2-4ea1-bf98-cfc8d9095d06")
 	)
 	(wire
 		(pts
@@ -18041,16 +18147,16 @@
 		)
 	)
 	(symbol
-		(lib_id "temp_sensor_2-altium-import:root_0_CAP_Nordic Passive DB.DbLib")
-		(at 210.82 105.41 0)
-		(unit 0)
+		(lib_id "PCM_JLCPCB-Capacitors:0402,100pF")
+		(at 214.63 105.41 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9226b7c3-f2ff-49a3-a698-7d78ff116bce")
 		(property "Reference" "C7"
-			(at 213.36 103.378 0)
+			(at 212.598 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18059,7 +18165,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 213.36 109.982 0)
+			(at 219.202 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18067,8 +18173,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 210.82 105.41 0)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 214.63 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18076,8 +18182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 210.82 105.41 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG101J500NT_C1546.pdf"
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18085,8 +18191,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor, NP0, ±5%"
-			(at 210.82 105.41 0)
+		(property "Description" "50V 100pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 214.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18095,7 +18201,7 @@
 			)
 		)
 		(property "PART NUMBER" "C0402-100p"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18105,7 +18211,7 @@
 			)
 		)
 		(property "MANUFACTURER" "*"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,7 +18221,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "*"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18125,7 +18231,7 @@
 			)
 		)
 		(property "DATASHEET" "*"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18135,7 +18241,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "2009-05-08"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18145,7 +18251,7 @@
 			)
 		)
 		(property "PIN COUNT" "2"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18155,7 +18261,7 @@
 			)
 		)
 		(property "PUBLISHER" "Nordic Semiconductor"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18165,7 +18271,7 @@
 			)
 		)
 		(property "PUBLISHED" "2009-05-08"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18175,7 +18281,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100pF"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18185,7 +18291,7 @@
 			)
 		)
 		(property "NOTE" "50V"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18195,7 +18301,7 @@
 			)
 		)
 		(property "SUPPLIER" "*"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18205,7 +18311,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER" "*"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18215,7 +18321,7 @@
 			)
 		)
 		(property "2ND SOURCE SUPPLIER" "*"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18225,7 +18331,7 @@
 			)
 		)
 		(property "2ND SOURCE PART NUMBER" "*"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18235,7 +18341,7 @@
 			)
 		)
 		(property "ARTIKKELNR NOCA" "20029135"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18245,7 +18351,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0402"
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18255,12 +18361,138 @@
 			)
 		)
 		(property "ARTIKKELNR SIMPRO" "N.A."
-			(at 210.312 103.378 0)
+			(at 212.598 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1546"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "3286274"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402CG101J500NT"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 216.6762 103.378 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100pF"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "C0G"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18274,7 +18506,7 @@
 			(project ""
 				(path "/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b"
 					(reference "C7")
-					(unit 0)
+					(unit 1)
 				)
 			)
 		)
