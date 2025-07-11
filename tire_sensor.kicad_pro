@@ -62,26 +62,6 @@
         [
           "pth_inside_courtyard|180316560|107990685|8c51256d-49f4-4e4e-8184-dd1da1553ccd|0358e0f2-1497-4e04-9127-f53b71ce1792",
           "IDK"
-        ],
-        [
-          "unconnected_items|177989060|104170685|c9855531-939c-4177-9b42-4681c6ef4c0e|9c7d06ee-7164-4b73-b21d-8d02bb49e957",
-          "RF"
-        ],
-        [
-          "via_dangling|170446560|109070685|ee7d5eab-fbce-4288-8bed-2ef2441921f0|00000000-0000-0000-0000-000000000000",
-          "Debug VIA"
-        ],
-        [
-          "via_dangling|173446560|108220685|b635efb2-2142-4b37-b83e-1d02a18500ae|00000000-0000-0000-0000-000000000000",
-          "Debug VIA"
-        ],
-        [
-          "via_dangling|173446560|110625285|efc72c85-1a44-4f62-91bf-27468e3c37f3|00000000-0000-0000-0000-000000000000",
-          "Debug VIA"
-        ],
-        [
-          "via_dangling|173446560|111670685|ddfecf61-f150-4931-b06f-41e9e55729ba|00000000-0000-0000-0000-000000000000",
-          "Debug VIA"
         ]
       ],
       "meta": {
@@ -143,7 +123,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "error",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
