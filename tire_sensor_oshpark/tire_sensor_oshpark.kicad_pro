@@ -252,32 +252,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|812800|939800|bb83dda5-1c98-421c-94e5-8205f79f4824|00000000-0000-0000-0000-000000000000|||",
-        "Updated Unspecified pins to Passive"
-      ],
-      [
-        "power_pin_not_driven|1155700|1092200|1c83c8e6-2ebd-42f2-afaa-785955cb17b9|00000000-0000-0000-0000-000000000000|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1270000|533400|b221bb82-c2a8-45bb-a966-35b2ffb14faf|00000000-0000-0000-0000-000000000000|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1409700|889000|a42cff1e-1f41-4fd5-8877-0ad3025bedc8|00000000-0000-0000-0000-000000000000|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1841500|1168400|eb7fd1bf-9b0d-4cff-b352-0d6e21a47150|00000000-0000-0000-0000-000000000000|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1841500|1193800|efbe7ed5-0c3d-4482-a820-29a732a485b2|00000000-0000-0000-0000-000000000000|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|/12e84b5e-0aa3-44f3-a9b4-3da4f6300b1b|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -501,7 +476,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "tire_sensor.kicad_pro",
+    "filename": "tire_sensor_oshpark.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -559,7 +534,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
