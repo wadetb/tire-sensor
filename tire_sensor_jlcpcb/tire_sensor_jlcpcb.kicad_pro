@@ -60,8 +60,8 @@
       ],
       "drc_exclusions": [
         [
-          "pth_inside_courtyard|180316560|107990685|8c51256d-49f4-4e4e-8184-dd1da1553ccd|0358e0f2-1497-4e04-9127-f53b71ce1792",
-          "The pad should be unused, no conflict with the battery footprint."
+          "pth_inside_courtyard|181941560|108000000|8c51256d-49f4-4e4e-8184-dd1da1553ccd|0358e0f2-1497-4e04-9127-f53b71ce1792",
+          ""
         ]
       ],
       "meta": {

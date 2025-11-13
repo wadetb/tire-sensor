@@ -4,4 +4,5 @@
   (lib (name "DPS368")(type "KiCad")(uri "${KIPRJMOD}/symbols/DPS368.kicad_sym")(options "")(descr ""))
   (lib (name "FA-128_32.0000MF20X-K3")(type "KiCad")(uri "${KIPRJMOD}/symbols/FA-128_32.0000MF20X-K3.kicad_sym")(options "")(descr ""))
   (lib (name "LIS3DHTR")(type "KiCad")(uri "${KIPRJMOD}/symbols/LIS3DHTR.kicad_sym")(options "")(descr ""))
+  (lib (name "NX2016SA_NDK")(type "KiCad")(uri "${KIPRJMOD}/symbols/NX2016SA_NDK.kicad_sym")(options "")(descr ""))
 )
