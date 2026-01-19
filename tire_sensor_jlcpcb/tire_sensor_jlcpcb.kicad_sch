@@ -975,14 +975,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NX2016SA_NDK:NX2016SA-32MHZ-EXS00A-CS06654"
+		(symbol "FA_128_EPS:FA-128_32.0000MF10Z-AJ3"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X"
+			(property "Reference" "XTAL"
 				(at 12.7 7.62 0)
 				(effects
 					(font
@@ -990,7 +990,7 @@
 					)
 				)
 			)
-			(property "Value" "NX2016SA-32MHZ-EXS00A-CS06654"
+			(property "Value" "FA-128 32.0000MF10Z-AJ3"
 				(at 12.7 5.08 0)
 				(effects
 					(font
@@ -998,7 +998,7 @@
 					)
 				)
 			)
-			(property "Footprint" "NX2016SA_NDK"
+			(property "Footprint" "FA-128_EPS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1008,7 +1008,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "NX2016SA-32MHZ-EXS00A-CS06654"
+			(property "Datasheet" "FA-128 32.0000MF10Z-AJ3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1035,7 +1035,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "NX2016SA-32MHZ-EXS00A-CS06654"
+			(property "ki_keywords" "FA-128 32.0000MF10Z-AJ3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1044,7 +1044,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "NX2016SA_NDK"
+			(property "ki_fp_filters" "FA-128_EPS FA-128_EPS-M FA-128_EPS-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1053,7 +1053,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NX2016SA-32MHZ-EXS00A-CS06654_0_1"
+			(symbol "FA-128_32.0000MF10Z-AJ3_0_1"
 				(polyline
 					(pts
 						(xy 7.62 2.54) (xy 7.62 -5.08)
@@ -18304,7 +18304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "NX2016SA_NDK:NX2016SA-32MHZ-EXS00A-CS06654")
+		(lib_id "FA_128_EPS:FA-128_32.0000MF10Z-AJ3")
 		(at 208.28 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18313,7 +18313,7 @@
 		(dnp no)
 		(uuid "7b669d4c-5f82-49d2-8192-39417194e47b")
 		(property "Reference" "X1"
-			(at 220.98 83.82 0)
+			(at 221.234 86.868 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18326,9 +18326,10 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "NX2016SA_NDK"
+		(property "Footprint" "FA-128_EPS"
 			(at 208.28 91.44 0)
 			(effects
 				(font
@@ -18338,7 +18339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NX2016SA-32MHZ-EXS00A-CS06654"
+		(property "Datasheet" "FA-128 32.0000MF10Z-AJ3"
 			(at 208.28 91.44 0)
 			(effects
 				(font

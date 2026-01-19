@@ -1,4 +1,4 @@
-26500133847797602
+26505423790564239
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105265,6 +105265,27 @@ Varistor VF
 0
 2
 2
+footprints
+FA-128_EPS
+
+FA-128 32.0000MF10Z-AJ3 
+0
+4
+4
+footprints
+FA-128_EPS-L
+
+FA-128 32.0000MF10Z-AJ3 
+0
+4
+4
+footprints
+FA-128_EPS-M
+
+FA-128 32.0000MF10Z-AJ3 
+0
+4
+4
 footprints
 LGA8S145X65P2X4_200X250X110-V
 Original name LGA8S145X65P2X4_200X250X110-V{return}{return}Max Component Height - 1.1mm
